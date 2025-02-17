@@ -1,3 +1,6 @@
+![Screenshot 2025-02-17 090251](https://github.com/user-attachments/assets/17cca76a-3c8e-4615-a24a-0fe9c6e42757)
+![Screenshot 2025-02-17 090304](https://github.com/user-attachments/assets/39cc294d-6e54-41f3-82ea-29182448725e)
+![Screenshot 2025-02-17 090329](https://github.com/user-attachments/assets/bcce7843-f719-4028-a548-47026d13be34)
 TweetSphere
 
 TweetSphere is a full-stack social media application that allows users to create, like, and share posts. Built with React (Vite) for the frontend and Node.js/Express with MongoDB for the backend.
