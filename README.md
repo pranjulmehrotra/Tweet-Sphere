@@ -1,6 +1,3 @@
-![Screenshot 2025-02-17 090251](https://github.com/user-attachments/assets/17cca76a-3c8e-4615-a24a-0fe9c6e42757)
-![Screenshot 2025-02-17 090304](https://github.com/user-attachments/assets/39cc294d-6e54-41f3-82ea-29182448725e)
-![Screenshot 2025-02-17 090329](https://github.com/user-attachments/assets/bcce7843-f719-4028-a548-47026d13be34)
 TweetSphere
 
 TweetSphere is a full-stack social media application that allows users to create, like, and share posts. Built with React (Vite) for the frontend and Node.js/Express with MongoDB for the backend.
@@ -21,15 +18,35 @@ TweetSphere is a full-stack social media application that allows users to create
 
 🚀 Tech Stack
 
-Frontend: React (Vite), Tailwind CSS, React Router
+Frontend:
 
-Backend: Node.js, Express.js, MongoDB (Mongoose)
+React (Vite)
 
-Authentication: Passport.js, JWT
+Tailwind CSS
 
-Storage: Cloudinary (for images)
+React Router
 
-State Management: React Context API
+Backend:
+
+Node.js
+
+Express.js
+
+MongoDB (Mongoose)
+
+Authentication:
+
+Passport.js
+
+JWT
+
+Storage:
+
+Cloudinary (for images)
+
+State Management:
+
+React Context API
 
 📂 Folder Structure
 
@@ -81,7 +98,7 @@ Run the frontend development server:
 
 npm run dev
 
-Frontend runs on http://localhost:5173 & Backend runs on http://localhost:5000.
+✅ Frontend runs on: http://localhost:5173✅ Backend runs on: http://localhost:5000
 
 ✅ Running Both Frontend & Backend Together
 
@@ -96,8 +113,6 @@ If frontend doesn’t start, ensure PostCSS & Tailwind are configured properly.
 If MongoDB isn’t connecting, check the MONGO_URI in .env.
 
 Ensure Cloudinary API keys are correct for image uploads.
-
-
 
 💡 Contributing
 
