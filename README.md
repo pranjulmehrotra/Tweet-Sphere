@@ -87,6 +87,16 @@ cd ../frontend
 npm install
 ```
 
+Create a `.env` file in the `frontend/` folder:
+
+```env
+REACT_APP_SERVICE_ID=your_service_id
+REACT_APP_TEMPLATE_ID=your_template_id
+REACT_APP_API_KEY=your_api_key
+REACT_APP_CLIENT_SECRET=your_client_secret
+REACT_APP_CLIENT_ID=your_client_id
+```
+
 Run the frontend development server:
 ```sh
 npm run dev
@@ -106,6 +116,7 @@ npm run dev --prefix frontend & npm run dev
 - If **frontend doesn’t start**, ensure **PostCSS & Tailwind** are configured properly.
 - If **MongoDB isn’t connecting**, check the **MONGO_URI** in `.env`.
 - Ensure **Cloudinary API keys** are correct for image uploads.
+- Double-check your **OAuth credentials** if Google or Apple login fails.
 
 ## 💡 Contributing
 
